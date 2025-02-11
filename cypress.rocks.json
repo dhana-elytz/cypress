@@ -1,0 +1,18 @@
+{
+  "ENV": "ROCKS",
+  "BASE_URL": {
+    "accounts_internal": "https://accounts-internal.wallex.rocks",
+    "app_v2": "https://app-v2.wallex.rocks",
+    "app_v2_SG": "https://app-v2-sg.wallex.rocks",
+    "app_v2_ID": "https://app-v2-id.wallex.rocks",
+    "app_v2_HK": "https://app-v2-hk.wallex.rocks",
+    "nodejs": "https://nodejs.wallex.rocks",
+    "authentication_api": "https://authentication.wallex.rocks"
+  },
+  "ACCOUNT": {
+    "random_account": {
+      "username": "random@random.com",
+      "password": "random"
+    }
+  }
+}

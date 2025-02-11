@@ -1,0 +1,22 @@
+{
+  "ENV": "NINJA",
+  "BASE_URL": {
+    "accounts_internal": "https://accounts-internal.wallex.ninja",
+    "app_v2": "https://app-v2.wallex.ninja",
+    "app_v2_SG": "https://app-v2-sg.wallex.ninja",
+    "app_v2_ID": "https://app-v2-id.wallex.ninja",
+    "app_v2_HK": "https://app-v2-hk.wallex.ninja",
+    "nodejs": "https://nodejs.wallex.ninja",
+    "authentication_api": "https://authentication.wallex.ninja"
+  },
+  "ACCOUNT": {
+    "random_account": {
+      "username": "random@random.com",
+      "password": "random"
+    },
+    "indah_lv_1": {
+      "username": "arunwallexqa@yopmail.com",
+      "password": "t3stP@ssw0rd"
+    }
+  }
+}

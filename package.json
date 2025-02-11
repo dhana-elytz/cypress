@@ -1,0 +1,35 @@
+{
+  "name": "wallex-frontend-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:dev": "npx cypress open",
+    "cy:ninja": "cross-env NODE_ENV=ninja npx cypress open",
+    "cy:ninja-sg": "cross-env NODE_ENV=ninja-sg npx cypress open",
+    "cy:rocks": "cross-env NODE_ENV=rocks npx cypress open",
+    "cy:plus": "cross-env NODE_ENV=plus npx cypress open",
+    "cy:run": "npx cypress run --config video=false",
+    "cy:ci": "npx cypress run",
+    "cy:run:record": "npx cypress run --record --key=1e481a78-fe39-4aa3-ae9d-dea6f4fbcd7d --config video=false"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "19.1.0",
+    "@cypress/browserify-preprocessor": "3.0.2",
+    "cypress": "^13.10.0",
+    "typescript": "^4.7.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1"
+  }
+}

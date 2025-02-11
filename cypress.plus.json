@@ -1,0 +1,22 @@
+{
+  "ENV": "PLUS",
+  "BASE_URL": {
+    "accounts_internal": "https://accounts-sg.wallex.plus",
+    "app_v2": "https://app-v2.wallex.plus",
+    "app_v2_SG": "https://app-v2-sg.wallex.plus",
+    "app_v2_ID": "https://app-v2-id.wallex.plus",
+    "app_v2_HK": "https://app-v2-hk.wallex.plus",
+    "nodejs": "https://nodejs-sg.wallex.plus",
+    "authentication_api": "https://authentication.wallex.plus"
+  },
+  "ACCOUNT": {
+    "random_account": {
+      "username": "random@random.com",
+      "password": "random"
+    },
+    "indah_lv_1": {
+      "username": "arunwallexqa@yopmail.com",
+      "password": "t3stP@ssw0rd"
+    }
+  }
+}

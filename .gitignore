@@ -1,0 +1,7 @@
+node_modules
+cypress/screenshots
+cypress/videos
+.DS_STORE
+cucumber-messages.ndjson
+package-lock.json
+yarn.lock

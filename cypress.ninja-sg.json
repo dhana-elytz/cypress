@@ -1,0 +1,15 @@
+{
+  "ENV": "NINJA-SG",
+  "BASE_URL": {
+    "accounts_internal": "https://accounts-sg.wallex.ninja",
+    "app_v2": "https://app-v2-sg.wallex.ninja",
+    "nodejs": "https://nodejs-sg.wallex.ninja",
+    "authentication_api": "https://authentication.wallex.ninja"
+  },
+  "ACCOUNT": {
+    "random_account": {
+      "username": "random@random.com",
+      "password": "random"
+    }
+  }
+}
